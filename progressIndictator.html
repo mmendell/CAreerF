@@ -15,62 +15,75 @@
 <body>
     <header class="page-header">
         <img class="logo" src="img/shmanger_adobe_express.svg" alt="logo">
+        <div>
+            <nav class="nav-bar">
+                <ul role="menubar" class="navigation-list">
+                    <li role="presentation">
+                        <a href="index.html" role="menuitem"
+                            class="navigation-list__item navigation-list__item--active">Home</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="aboutMyself.html" role="menuitem" class="navigation-list__item">About</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="contactUs.html" role="menuitem" class="navigation-list__item">Contact</a>
+                    </li>
+                    <li>
+                        <a href="progressIndictator.html" role="menuitem" class="navigation-list__item">Progress</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
-        <nav class="nav-bar">
-            <ul role="menubar" class="navigation-list">
-                <li role="presentation">
-                    <a href="index.html" role="menuitem"
-                        class="navigation-list__item navigation-list__item--active">Home</a>
-                </li>
-                <li role="presentation">
-                    <a href="aboutMyself.html" role="menuitem" class="navigation-list__item">About</a>
-                </li>
-                <li role="presentation">
-                    <a href="contactUs.html" role="menuitem" class="navigation-list__item">Contact</a>
-                </li>
-                <li>
-                    <a href="progressIndictator.html" role="menuitem" class="navigation-list__item">Progress</a>
-                </li>
-            </ul>
-        </nav>
+      
 
     </header>
 
     <section>
-        <h1>Work</h1>
         <div class="grid">
 
             <div class="grid__item">
-                <h1>about this grid</h1>
-                <p>this is a short explanation to elaborte on the fact that i really have no idea what the hell i am
-                    doing</p>
-                <a href="#">See here for full example</a>
+                <h1>First project</h1>
+                <p>My first project in fact was this very website! <br>
+                    It has been built in a very simple and basic fashion to display the information neccesary.</p>
+                <a href="https://mmendell.github.io/portfolio/">Redirect to home page</a>
             </div>
 
             <div class="grid__item">
-                <h5>a short history of assholism on the I95</h5>
-                <p>i well known musician was once driving down the I95 when he was cut off by an indecent person. He
-                    then wrote a song about it</p>
-                <a href="https://www.youtube.com/watch?v=sybrZXnWx60">check out this rendition by jimmy buffet</a>
+                <h5>API that fetches pokemon characters</h5>
+                <p>This is an API hosted by heroku built in the Node.js envirement that fetches data from the Pokedex
+                    api of popkemon characters. </p>
+                <a href="https://mmendell.github.io/js/">Check it out Here</a>
             </div>
 
             <div class="grid__item">
-                <h5>grid 6</h5>
-                <p>as is for assholes is a satiricial book regarding assholism</p>
-                <a
-                    href="https://read.amazon.com/kp/embed?asin=B07MPCTJL3&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_5A70ZRADYQFN4VYYP41T">get
-                    a copy here</a>
+                <h5>MyBooksApp</h5>
+                <p>An app that was built on the MERN stack for users to create a database of books they have read and
+                    select their favorite ones. <br>
+                    users can create and delete accounts, and add books to their favorite list. <br>
+                    this project was developed with express, node, mongo, and react. This project also used and array of
+                    diffent libraries.</p>
+
             </div>
 
             <div class="grid__item">
-                <h5>this is a wikipedia page</h5>
-                <p>wikipediahas a crowd sourced page regarding assholes</p>
-                <a
-                    href="https://en.wikipedia.org/wiki/Asshole#:~:text=The%20word%20asshole%20(in%20North,synecdoche)%20to%20refer%20to%20people.">check
+                <h5>Meet App</h5>
+                <p>This project is a calendar app furnishing upcoming events for web devolpers. the events are sourced
+                    from the google calendar API. <br>
+                    this app also required aws lambda function integration to set up derverless functions to create an
+                    authentication server for Access to the google calndar. <br>
+                    serverless toolkit was used to set up the lambda functions. <br>
+                    the actual page is hosted on github pages.
+                    <br>
+                    the visual chart elements were created with the recharts library.
+                    overall this project was a thoroughly enjoyable project that was a great way to learn about react
+                    and use the create react boilerplate.
+                </p>
+                <a href='https://mmendell.github.io/chat2/'>check
                     it out here</a>
             </div>
 
-            <!-- remove placeholders-->
+            <!-- remove placeholders
             <div class="grid__item">
                 <h5>placeholder</h5>
                 <p>placeholder</p>
@@ -81,7 +94,7 @@
                 <h5>placeholder</h5>
                 <p>placeholder</p>
                 <a href="#">placeholder</a>
-            </div>
+            </div> -->
 
         </div>
     </section>
@@ -89,13 +102,14 @@
 
 
     <footer class="index__footer">
-        <p>Here's some references</p>
+        <p>Find me here!</p>
         <div class="social-media">
-            <img src="img/facebook_icon.svg" alt="Facebook">
-            <img src="img/twitter_icon.svg" alt="Twitter">
-            <img src="img/github_icon.svg" alt="Github">
+          <a href="https://twitter.com/MRaglayim"> <img src="img/twitter_icon.svg" alt="Twitter">
+          </a>
+          <a href="https://github.com/mmendell"> <img src="img/github_icon.svg" alt="Github">
+          </a>
         </div>
-    </footer>
+      </footer>
 
     <script src="js/tota11y.min.js"></script>
 
