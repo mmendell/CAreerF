@@ -10,6 +10,7 @@
   --link-color: #0c1413;
   --dark-grey: #2b2b2b;
   --font-size: medium;
+  --font-weight: 400;
 }
 
 body {
@@ -35,6 +36,7 @@ nav {
 
 a {
   color: var(--link-color);
+
 }
 
 a:visited {
@@ -165,6 +167,12 @@ button:focus:hover {
   text-align: center;
 }
 
+#about-me {
+  text-align: center;
+  margin: auto;
+  padding: 0 25px;
+  max-width: 699px;
+}
 
 @supports (display: grid) {
   .grid {
